@@ -1,0 +1,18 @@
+{
+  "taskMenuIntentTemplateData" :
+  {
+    "type" : "object",
+    "properties" :
+    {
+      "taskMenuMessage": "1. Image text extract,<br>2. Image object extract,<br>3. Find a text in image,<br>4. Find a object in image,<br>5. Find a adult in image,<br>6. Find a face in image,<br>7. Video text extract,<br>8. Video object extract,<br>9. Find a text in video,<br>10. Find a object in video,<br>11. Find a adult in video.<br>",
+      "hintString" : "task name image text extract"
+    },
+    "transformers" :
+    [
+      {
+        "inputPath" : "hintString",
+        "transformer" : "textToHint"
+      }
+    ]
+  }
+}
